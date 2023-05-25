@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Setup dependancies based on OS
+## Setup dependencies based on OS
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # LINUX
     if [ -f /etc/lsb-release ] || [ -f /etc/debian_version ]; then
